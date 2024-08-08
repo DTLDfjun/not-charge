@@ -13,8 +13,10 @@ declare module '@vue/runtime-core' {
     AppLogos: typeof import('./components/AppLogos.vue')['default']
     BaseCards: typeof import('./components/BaseCards.vue')['default']
     Demo: typeof import('./components/Demo.vue')['default']
+    GridComponent: typeof import('./components/GridComponent.vue')['default']
     HiCounter: typeof import('./components/HiCounter.vue')['default']
     InputEntry: typeof import('./components/InputEntry.vue')['default']
+    Keyboard: typeof import('./components/keyboard.vue')['default']
     QiunDataChartsQiunDataCharts: typeof import('./components/qiun-data-charts/qiun-data-charts.vue')['default']
     QiunLoadingLoading2: typeof import('./components/qiun-loading/loading2.vue')['default']
     QiunLoadingLoading3: typeof import('./components/qiun-loading/loading3.vue')['default']
@@ -22,5 +24,6 @@ declare module '@vue/runtime-core' {
     QiunLoadingLoading5: typeof import('./components/qiun-loading/loading5.vue')['default']
     QiunLoadingQiunLoading: typeof import('./components/qiun-loading/qiun-loading.vue')['default']
     Tabbar: typeof import('./components/Tabbar.vue')['default']
+    UserSelect: typeof import('./components/UserSelect.vue')['default']
   }
 }

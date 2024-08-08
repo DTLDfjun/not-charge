@@ -15,6 +15,12 @@ declare module '@vue/runtime-core' {
     Demo: typeof import('./components/Demo.vue')['default']
     HiCounter: typeof import('./components/HiCounter.vue')['default']
     InputEntry: typeof import('./components/InputEntry.vue')['default']
+    QiunDataChartsQiunDataCharts: typeof import('./components/qiun-data-charts/qiun-data-charts.vue')['default']
+    QiunLoadingLoading2: typeof import('./components/qiun-loading/loading2.vue')['default']
+    QiunLoadingLoading3: typeof import('./components/qiun-loading/loading3.vue')['default']
+    QiunLoadingLoading4: typeof import('./components/qiun-loading/loading4.vue')['default']
+    QiunLoadingLoading5: typeof import('./components/qiun-loading/loading5.vue')['default']
+    QiunLoadingQiunLoading: typeof import('./components/qiun-loading/qiun-loading.vue')['default']
     Tabbar: typeof import('./components/Tabbar.vue')['default']
   }
 }
